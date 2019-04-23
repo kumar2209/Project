@@ -1,11 +1,7 @@
 pipeline {
 
     // Where to run stuff.
-    agent { 
-        node {
-            label 'CentOS7'
-        }
-    }
+    agent any
 
     // What to run goes here.
     stages {
