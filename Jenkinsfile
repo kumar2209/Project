@@ -16,4 +16,5 @@ pipeline {
                 bat 'echo "Hello iam in stage 2"'
             }
         }
+    }
 }
