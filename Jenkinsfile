@@ -1,12 +1,7 @@
 pipeline {
 
     // Where to run stuff.
-    agent {
-        node {
-            lable 'master_01'
-        }
-    
-    }
+    agent any
 
     // What to run goes here.
     stages {
@@ -21,5 +16,4 @@ pipeline {
                 bat 'echo "Hello iam in stage 2"'
             }
         }
-    }
 }
