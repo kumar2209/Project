@@ -13,7 +13,7 @@ pipeline {
         stage('Stage_1') {
             steps {
                 bat 'echo "Hello i am in stage one"' 
-                bat 'mkdir "C:\Progra~1\Java\new_file"'
+                bat 'mkdir "C:\\Progra~1\\Java\\new_file"'
             }
         }
         stage('Stage_02'){
